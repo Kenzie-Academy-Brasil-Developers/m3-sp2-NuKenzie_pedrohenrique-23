@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+        }
+
+        @media (max-width: 24.375rem) {
+            .container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1.1875rem;
+            }
+          }

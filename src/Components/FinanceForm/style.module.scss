@@ -1,0 +1,54 @@
+ .container{
+    display: flex;
+    width: 355px;
+    height: 434px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .125rem;
+    margin-top: 2.4375rem;
+    background-color: var(--color-white);
+    
+    
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: .7562rem;
+        height: 27.125rem;
+        border: .0625rem solid var(--color-grey-3);
+        padding: 1.875rem 1.2188rem 2.625rem 1.3125rem ;
+    
+        .div_inputs{
+            display: flex;
+            flex-direction: column;
+
+            input{
+                width: 17.3125rem;
+                height: 3rem;
+                border-radius: .5rem;
+                padding: 0 16px 0 16px;
+                gap: .625rem;
+                border: .0625rem solid var(--color-grey-0);
+                background-color: var(--color-grey-0);
+            }
+        
+            select{
+                display: flex;
+                width: 19.5625rem;
+                height: 3rem;
+                justify-content: space-between;
+                padding: 0 16px 0 16px;
+                border: .0625rem solid var(--color-grey-0);
+                background-color: var(--color-grey-0);
+            }
+        }
+    }
+}
+
+@media (max-width: 24.375rem){
+    .container{
+        width: 22.1875rem;
+        height: 27.125rem;
+        margin-left: 1.5rem;
+    }
+}

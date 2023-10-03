@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;800&family=Nunito+Sans:opsz,wght@6..12,700&family=Poppins:wght@100&display=swap');
+
+.btn{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    width: 314px;
+    height: 48px;
+    border-radius: 8px;
+    border: 2px solid var(--color-primary);
+    padding: 13px 20px 13px 20px;
+    gap: 10px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: var(--color-primary-2);
+    }
+}
+
+
+.btn-2{
+    width: 49px;
+    height: 19px;
+    border-radius: 2px;
+    border: none;
+    background-color: var(--color-grey-2);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13.64px;
+    cursor: pointer;
+    padding: 3px;
+    
+    &:hover {
+        background-color: var(--color-grey-3);
+    }
+}

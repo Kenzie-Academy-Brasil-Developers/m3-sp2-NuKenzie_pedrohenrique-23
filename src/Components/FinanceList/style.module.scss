@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.4375rem;
+    width: 560px;
+    height: 87px;
+}
+
+@media (max-width: 24.375rem){
+    .container{
+        display: flex;
+        justify-content: center;
+        margin-top: 10.125rem;
+        margin-left: 1.25rem;
+        width: 100vh;
+
+        .message{
+            word-wrap: break-word;
+        }
+    }
+}
