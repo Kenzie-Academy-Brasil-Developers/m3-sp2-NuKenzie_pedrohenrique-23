@@ -28,8 +28,9 @@
                 border-radius: .5rem;
                 padding: 0 16px 0 16px;
                 gap: .625rem;
-                border: .0625rem solid var(--color-grey-0);
-                background-color: var(--color-grey-0);
+                border: .0625rem solid var(--color-grey-4);
+                background-color: var(--color-grey-1);
+
             }
         
             select{
@@ -38,8 +39,20 @@
                 height: 3rem;
                 justify-content: space-between;
                 padding: 0 16px 0 16px;
-                border: .0625rem solid var(--color-grey-0);
-                background-color: var(--color-grey-0);
+                border: .0625rem solid var(--color-grey-4);
+                border-radius: .5rem;
+                background-color: var(--color-grey-1);
+
+                .options{
+                    display: flex;
+                    width: 19.5625rem;
+                    height: 3rem;
+                    justify-content: space-between;
+                    padding: 0 16px 0 16px;
+                    border: .0625rem solid var(--color-grey-4);
+                    border-radius: .5rem;
+                    background-color: var(--color-grey-1);
+                }
             }
         }
     }

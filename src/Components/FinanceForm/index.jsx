@@ -25,8 +25,6 @@ export const FinanceForm = ({addCard}) => {
             );
       };
 
-
-
     return(
         <section className={styles.container}>
             <form onSubmit={submit}>
