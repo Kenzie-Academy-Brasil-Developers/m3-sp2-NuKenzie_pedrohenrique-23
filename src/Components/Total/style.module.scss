@@ -24,10 +24,21 @@
     }
 }
 
-@media (max-width: 24.375rem){
+@media (max-width: 400px){
     .container{
-        width: 22.375rem;
-        height: 6rem;
-        margin-left: 1.5rem;
+        width: 355px;
+        height: 96px;
+        margin-left: 0.6rem;
+        margin-top: 17px;
+    }
+
+    .div_total{
+        padding-top: 0;
+    }
+
+    .price{
+        position: relative;
+        top: -5px;
+        white-space: nowrap; 
     }
 }

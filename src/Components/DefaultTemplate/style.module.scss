@@ -5,11 +5,17 @@
     flex-wrap: wrap;
         }
 
-        @media (max-width: 24.375rem) {
+        @media (max-width: 400px) {
             .container{
                 display: flex;
+                width: 100%;
                 flex-direction: column;
                 justify-content: center;
-                gap: 1.1875rem;
+
+                div{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
             }
           }

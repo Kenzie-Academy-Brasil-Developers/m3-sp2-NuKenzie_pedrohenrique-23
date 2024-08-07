@@ -31,18 +31,18 @@
 
 }
 
-@media (max-width: 24.375rem){
+@media (max-width: 400px){
     .container{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 21.9375rem;
-        height: 9.75rem;
-        align-items: flex-start;
+        width: 351px;
+        height: 156px;
+        // align-items: flex-start;
 
         .div_right{
             display: flex;
-            align-items: center;
+            align-items: flex-start;
         }
     }
 }

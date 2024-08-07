@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    width: 1500px;
+    width: 100%;
     height: 88px;
     box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.2);    
     align-items: center;
@@ -11,13 +11,13 @@
     }
 }
 
-@media (max-width: 24.375rem){
+@media (max-width: 400px){
     .header{
-        width: 390px;
-        height: 4.3125rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 0;
+        width: 100%;
+        height: 69px;
+
+        img{
+            margin: auto;
+        }
     }
 }
