@@ -10,24 +10,6 @@
     }
 }
 
-// @media (max-width: 400px){
-//     .container{
-//         display: flex;
-//         justify-content: center;
-//         margin-top: 7px;
-//         padding-left: 12px;
-//         width: 100%;
-
-//         ul{
-//             width: 100%;
-//         }
-
-//         .message{
-//             word-wrap: break-word;
-//         }
-//     }
-// }
-
 @media (max-width: 400px) {
     .container {
         display: flex;
@@ -41,7 +23,7 @@
   
       ul {
         width: 100%;
-        overflow-y: auto; // Manter o scroll vertical
+        overflow-y: auto; 
       }
   
       .message {
