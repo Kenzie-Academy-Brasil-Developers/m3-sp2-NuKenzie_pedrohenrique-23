@@ -12,6 +12,10 @@
 - **Controle de Saldo**: O saldo é calculado automaticamente com base nas transações registradas.
 - **Visão Financeira**: Acompanhe suas finanças com uma interface simples e clara.
 
+## 📸 Demonstração
+
+🔗 [Clique aqui para acessar o projeto](https://m3-sp2-nu-kenzie-pedrohenrique-23-xf1c-i7kr79xnr.vercel.app/)
+
 ## 🚀 **Como Rodar o Projeto**
 
 1. Clone o repositório:
